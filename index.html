@@ -1,47 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
 <meta charset="UTF-8">
-<title>Shopee Flow</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rekomendasi Flow</title>
 <style>
 body{
-    font-family:Arial;
-    max-width:600px;
-    margin:auto;
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#111;
+    color:white;
     padding:20px;
 }
-a{
+.container{
+    max-width:520px;
+    margin:auto;
+    text-align:center;
+}
+h1{
+    margin-top:20px;
+}
+.card{
+    background:#1c1c1c;
+    border-radius:16px;
+    padding:18px;
+    margin:14px 0;
+    box-shadow:0 4px 12px rgba(0,0,0,.3);
+}
+.card a{
     display:block;
-    margin:10px 0;
-    padding:15px;
     background:#ee4d2d;
     color:white;
+    padding:14px;
+    border-radius:12px;
     text-decoration:none;
-    border-radius:10px;
+    font-weight:bold;
+}
+.small{
+    color:#aaa;
+    font-size:14px;
 }
 </style>
 </head>
 <body>
 
-<h1>🔥 Rekomendasi Flow</h1>
+<div class="container">
+    <h1>🔥 Rekomendasi Flow</h1>
+    <p class="small">List produk pilihan & link penting</p>
 
-<a href="https://shopee.co.id">Powerbank</a>
-<a href="https://shopee.co.id">Charger</a>
-<a href="https://shopee.co.id">TWS</a>
+    <div class="card">
+        <h3>🛒 Shopee</h3>
+        <a href="https://shopee.co.id">Buka Shopee</a>
+    </div>
 
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-<title>Flow WP</title>
-</head>
-<body>
+    <div class="card">
+        <h3>📱 Download Flow WP</h3>
+        <a href="#">Download APK</a>
+    </div>
 
-<h1>Flow WP</h1>
-
-<p>Selamat datang di halaman Flow WP</p>
-
-<a href="https://shopee.co.id">Shopee</a>
+    <div class="card">
+        <h3>🔋 Powerbank Rekomendasi</h3>
+        <a href="#">Lihat Produk</a>
+    </div>
+</div>
 
 </body>
 </html>
